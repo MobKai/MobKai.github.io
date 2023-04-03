@@ -1,0 +1,212 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    display: grid;
+}
+
+header {
+    background: linear-gradient(70deg, white, black);
+    padding-top:.7em;
+    padding-bottom:.5em;
+    grid-row: 1/2; grid-column:1/5;
+}
+
+header img {
+    float: left;
+    margin-top:.5em;
+    margin-left:2.5em;
+}
+
+#search {
+    float: right;
+    margin-top:1.5em;
+    margin-right:4em;
+}
+
+nav {
+    margin-left:60em;
+}
+
+#nav_menu ul {
+    list-style: none;
+    padding: 1em 0;
+    margin-right:3em;
+    text-align: right;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1em;
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#nav_menu ul li a:hover, a:focus {
+    color: crimson;
+}
+
+main {
+    margin-bottom:-35.2em;
+}
+
+#sect1 {
+    position: relative;
+    background-image: url("../images/VilliansT_full.jpg");
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    background-size: 680px;
+    width:70px;
+    height:70px;
+    
+    
+    padding-left:42.5em;
+    padding-bottom: 38em;
+    border-right: 2px solid gray;
+}
+
+
+
+#sect1:hover, a:focus {
+    background-image: url("../images/VT-Shirt_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 680px;
+    width: 70px;
+    height:70px;
+}
+
+#sect2 {
+    padding-left:53em;
+    padding-bottom:20.09999999999em;
+    margin-top:-39em;
+    grid-row: 2/4; grid-column: 3/5;
+}
+ 
+#sect2 h1 {
+    font-size: 35px;
+}
+
+#fsize {
+    font-size: large;
+}
+
+fieldset {
+    margin-left:-1em;
+    border: 0;
+    font-size:20px;
+}
+
+legend {
+    font-size:14.5px;
+}
+
+label {
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-bottom:3em;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top:1.5em;
+    padding-left:17em;
+    padding-right:17em;
+    padding-bottom: 1.5em;
+    border: black;
+}
+
+
+button:hover {
+    background-color: gray;
+    color: black;
+}
+
+button:active {
+    background-color: gray;
+    color: white;
+}
+
+#shift {
+    margin-top:2em;
+}
+
+#move {
+    padding-top:1em;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1a1a1a;
+    color:white;
+    clear: both;
+    padding-top: 3em;
+    padding-bottom:1em;
+    padding-left:6em;
+    padding-right: 40em;
+    margin-top:16em;
+    grid-row: 4/5; grid-column: 1/5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer p {
+     font-size: 15px;
+     margin-left:13em; 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover, a:focus {
+    color: crimson;
+}
+
+footer img {
+    margin-top:.8em;
+    margin-right:.4em;
+}
+
+.copyright {
+    font-size: 15px;
+    color: gray;
+}
+
+.column {
+    width:400px;
+    float: left;
+}
+
+.column1 {
+    width:400px;
+    margin-top:-.3em; 
+    margin-right:2em;
+   float: left; 
+}
+
+
